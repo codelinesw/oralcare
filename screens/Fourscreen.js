@@ -50,13 +50,13 @@ export default class Fourscreen extends React.Component {
   }
 
   componentDidMount(){
-    this.start = setInterval(() => {
-      this._goToNextPage();
-    },6000);
+    // this.start = setInterval(() => {
+    //   this._goToNextPage();
+    // },6000);
   }
 
   componentWillUnmount(){
-    clearInterval(this.start);
+    //clearInterval(this.start);
   }
   _goToNextPage = () => {
     if(this.CurrentSlide >= this.state.data.length-1){
@@ -76,7 +76,7 @@ export default class Fourscreen extends React.Component {
     let position = Animated.divide(this.scrollx,(WIDTH-50));
     return (
       <View style={[styles.container,{backgroundColor:'#fbfbfb'}]}>
-        <Image source={require('../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:0,width:120,height:120,transform: [{ scale: 0.8 }]}} />
+        <Image source={require('../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:-12,width:120,height:120,transform: [{ scale: 0.8 }]}} />
         <TouchableOpacity style={{position:'absolute',top:-5, right:5, padding:2}} onPress={() => this.props.navigation.navigate('Thirdscreen')}>
           <Image source={require('../images/screen-four/menu.png')} style={{right:-25,top:0,width:240,height:120,transform: [{ scale: 0.6 }]}} />
         </TouchableOpacity>
@@ -170,7 +170,7 @@ export default class Fourscreen extends React.Component {
               })}
             </ScrollView>
           </View>
-        </View>  
+        </View>
       </View>
     );
   }

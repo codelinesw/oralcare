@@ -19,7 +19,7 @@ export default class Thirdscreen extends React.Component {
   render(){
     return (
       <View style={[styles.container,{backgroundColor:'#fbfbfb'}]}>
-        <Image source={require('../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:0,width:120,height:120,transform: [{ scale: 0.8 }]}} />
+        <Image source={require('../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:-12,width:120,height:120,transform: [{ scale: 0.8 }]}} />
         <View style={styles.panel_top}>
           <TouchableOpacity style={{top:25,left:100,padding:10, height:310}} onPress={() => this.props.navigation.navigate('Secondscreen')}><Image source={require('../images/Producto-ideal.png')} style={{width:290,height:290,transform: [{ scale: 1 }]}} /></TouchableOpacity>
           <TouchableOpacity style={{top:30,right:110,padding:10, height:310}} onPress={() => this.props.navigation.navigate('Secondscreen')}><Image source={require('../images/cuidado-oral.png')} style={{width:290,height:290,transform: [{ scale: 1 }]}} /></TouchableOpacity>
