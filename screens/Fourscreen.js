@@ -170,8 +170,7 @@ export default class Fourscreen extends React.Component {
               })}
             </ScrollView>
           </View>
-        </View>
-        <TouchableOpacity onPress={() => this._goToNextPage()}><Text>Touch me again!</Text></TouchableOpacity>
+        </View>  
       </View>
     );
   }

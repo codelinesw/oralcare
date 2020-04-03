@@ -1,7 +1,7 @@
 import React,{ createRef } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, Dimensions, FlatList, Animated,ScrollView } from 'react-native';
 import styles from '../../styles/styles'
-
+import ButtonSlide from '../../components/ButtonSlide'
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
 
@@ -64,7 +64,7 @@ export default class CepillaTusDientes extends React.Component {
     return (
       <View style={[styles.container,{backgroundColor:'#fbfbfb'}]}>
         <Image source={require('../../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:0,width:120,height:120,transform: [{ scale: 0.8 }]}} />
-        <TouchableOpacity style={{position:'absolute',top:-5, right:5, padding:2}} onPress={() => this.props.navigation.navigate('Thirdscreen')}>
+        <TouchableOpacity style={{position:'absolute',top:-5, right:5, padding:2}} onPress={() => this.props.navigation.navigate('Menu_')}>
           <Image source={require('../../images/screen-four/menu.png')} style={{right:-25,top:0,width:240,height:120,transform: [{ scale: 0.6 }]}} />
         </TouchableOpacity>
         <View style={[styles.carouselcontainer,{height:HEIGHT-150}]}>
@@ -95,14 +95,7 @@ export default class CepillaTusDientes extends React.Component {
             </View>
           </View>
         </View>
-        <View style={{position:'absolute',bottom:10,width:(WIDTH-50),height:55, flexDirection:'row', justifyContent:'space-between'}}>
-          <TouchableOpacity style={{position:'relative',top:-10,padding:10}} onPress={() => this.props.navigation.navigate('VisitaAlOdontologo')}>
-            <Image source={require('../../images/screen-four/prev-button.png')} style={{top:-40,left:-4,width:80,height:115,transform: [{ scale: 0.4 }]}} />
-          </TouchableOpacity>
-          <TouchableOpacity style={{position:'relative',top:-10,padding:10}} onPress={() => this.props.navigation.navigate('CambiaTuCepillo')}>
-            <Image source={require('../../images/screen-four/next-button.png')} style={{top:-40,left:-4,width:80,height:115,transform: [{ scale: 0.4 }]}} />
-          </TouchableOpacity>
-        </View>
+        <ButtonSlide screenNext="CambiaTuCepillo" screenPrev="VisitaAlOdontologo" navigation={this.props.navigation} />
       </View>
     );
   }

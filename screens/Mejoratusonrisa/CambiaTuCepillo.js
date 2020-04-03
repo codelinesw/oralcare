@@ -1,7 +1,7 @@
 import React,{ createRef } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Image, Dimensions, FlatList, Animated,ScrollView } from 'react-native';
 import styles from '../../styles/styles'
-
+import ButtonSlide from '../../components/ButtonSlide'
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
 
@@ -64,7 +64,7 @@ export default class CepillaTusDientes extends React.Component {
     return (
       <View style={[styles.container,{backgroundColor:'#fbfbfb'}]}>
         <Image source={require('../../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:0,width:120,height:120,transform: [{ scale: 0.8 }]}} />
-        <TouchableOpacity style={{position:'absolute',top:-5, right:5, padding:2}} onPress={() => this.props.navigation.navigate('Thirdscreen')}>
+        <TouchableOpacity style={{position:'absolute',top:-5, right:5, padding:2}} onPress={() => this.props.navigation.navigate('Menu_')}>
           <Image source={require('../../images/screen-four/menu.png')} style={{right:-25,top:0,width:240,height:120,transform: [{ scale: 0.6 }]}} />
         </TouchableOpacity>
         <View style={[styles.carouselcontainer,{height:HEIGHT-150}]}>
@@ -72,7 +72,7 @@ export default class CepillaTusDientes extends React.Component {
             <Image source={require('../../images/screen-four/Titulo-04.png')} style={{top:0,width:1600,height:120,transform: [{ scale: 0.4 }]}} />
           </View>
           <View style={[styles.carousel,{top:80,height:HEIGHT-230}]}>
-            <Image source={require('../../images/screen-four/cambia-de-cepillo.png')} style={{position:'absolute',top:0,width:WIDTH,height:520,transform: [{ scale: 0.9 }]}} />
+            <Image source={require('../../images/screen-four/cambia-de-cepillo.png')} style={{position:'absolute',top:0,width:WIDTH,height:450,transform: [{ scale: 0.9 }]}} />
             <View style={[styles.panel_one,{width:(WIDTH/2)-150,height:HEIGHT-230,alignItems:'center'}]}>
               <Text style={[{position:'relative',top:40,left:90,marginTop:50,fontSize:25,width:400, marginBottom:25}]}>Cambia tu cepillo cuando sus ﬁlamentos estén deformados,de esta manera lograras unmejor control de la placabacteriana y al mismo tiempo evitaras la contaminación de tu cepillo por uso prolongado en el tiempo..</Text>
             </View>
@@ -81,14 +81,7 @@ export default class CepillaTusDientes extends React.Component {
             </View>
           </View>
         </View>
-        <View style={{position:'absolute',bottom:10,width:(WIDTH-50),height:55, flexDirection:'row', justifyContent:'space-between'}}>
-          <TouchableOpacity style={{position:'relative',top:-10,padding:10}} onPress={() => this.props.navigation.navigate('EnjuagueBucal')}>
-            <Image source={require('../../images/screen-four/prev-button.png')} style={{top:-40,left:-4,width:80,height:115,transform: [{ scale: 0.4 }]}} />
-          </TouchableOpacity>
-          <TouchableOpacity style={{position:'relative',top:-10,padding:10}} onPress={() => this.props.navigation.navigate('ConsejosParaUnaBocaSana')}>
-            <Image source={require('../../images/screen-four/next-button.png')} style={{top:-40,left:-4,width:80,height:115,transform: [{ scale: 0.4 }]}} />
-          </TouchableOpacity>
-        </View>
+        <ButtonSlide screenNext="ConsejosParaUnaBocaSana" screenPrev="EnjuagueBucal" navigation={this.props.navigation}/>
       </View>
     );
   }
