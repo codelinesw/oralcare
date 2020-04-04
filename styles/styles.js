@@ -89,7 +89,11 @@ const styles = StyleSheet.create({
     height:210,
 
   },
-
+  buttonButtonCarousel_:{
+    padding:5,
+    width:380,
+    height:320,
+  },
   BoxButton: {
     width:230,
     height:230,

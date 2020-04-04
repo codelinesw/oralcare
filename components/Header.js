@@ -16,8 +16,8 @@ export default class Header extends React.Component {
   render(){
     const { _path_ } = this.props;
     return(
-      <View style={{position:'absolute',top:0,width:WIDTH,backgroundColor:'red'}}>
-        <Image source={require('../images/Logo-colgate.png')} style={{position:'absolute',left:20,top:-12,width:120,height:120,transform: [{ scale: 0.8 }]}} />
+      <View style={{position:'absolute',top:0,width:WIDTH,height:100,zIndex:200}}>
+        <Image source={require('../images/Logo-colgate.png')} style={{position:'absolute',zIndex:200,left:20,top:-12,width:120,height:120,transform: [{ scale: 0.8 }]}} />
         <TouchableOpacity style={{position:'absolute',zIndex:200,top:-5, right:5, padding:2}} onPress={() => this.props.navigation.navigate(_path_)}>
           <Image source={require('../images/screen-four/menu.png')} style={{right:-25,top:0,width:240,height:120,transform: [{ scale: 0.6 }]}} />
         </TouchableOpacity>

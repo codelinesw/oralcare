@@ -19,6 +19,10 @@ import ConsejosParaUnaBocaSana from '../screens/Mejoratusonrisa/ConsejosParaUnaB
 import QuestionFirstScreen from '../screens/CuantoSabesDeCuidadoOral/QuestionFirstScreen'
 import QuestionSecondScreen from '../screens/CuantoSabesDeCuidadoOral/QuestionSecondScreen'
 import ResultQuestion from '../screens/CuantoSabesDeCuidadoOral/ResultQuestion'
+import MultibeneficiosOne from '../screens/Productos/Multibeneficios/MultibeneficiosOne'
+import MenuMultiBeneficios from "../screens/Productos/Multibeneficios/MenuMultiBeneficios"
+import Total12 from "../screens/Productos/Multibeneficios/Total12"
+
 
 const RootStack = createStackNavigator(
   {
@@ -74,6 +78,15 @@ const DrawerNavigator = createDrawerNavigator(
     },
     ResultQuestion: {
       screen: ResultQuestion
+    },
+    MultibeneficiosOne: {
+      screen: MultibeneficiosOne
+    },
+    MenuMultiBeneficios: {
+      screen: MenuMultiBeneficios
+    },
+    Total12: {
+      screen:Total12
     }
   },
 );
