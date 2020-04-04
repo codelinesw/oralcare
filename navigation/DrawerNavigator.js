@@ -22,6 +22,9 @@ import ResultQuestion from '../screens/CuantoSabesDeCuidadoOral/ResultQuestion'
 import MultibeneficiosOne from '../screens/Productos/Multibeneficios/MultibeneficiosOne'
 import MenuMultiBeneficios from "../screens/Productos/Multibeneficios/MenuMultiBeneficios"
 import Total12 from "../screens/Productos/Multibeneficios/Total12"
+import TotalProfessional from "../screens/Productos/Multibeneficios/TotalProfessional"
+import EnciasSaludables from "../screens/Productos/Multibeneficios/EnciasSaludables"
+import AlientoSaludable from "../screens/Productos/Multibeneficios/AlientoSaludable"
 
 
 const RootStack = createStackNavigator(
@@ -87,6 +90,15 @@ const DrawerNavigator = createDrawerNavigator(
     },
     Total12: {
       screen:Total12
+    },
+    TotalProfessional: {
+      screen:TotalProfessional
+    },
+    EnciasSaludables: {
+      screen:EnciasSaludables
+    },
+    AlientoSaludable: {
+      screen:AlientoSaludable
     }
   },
 );

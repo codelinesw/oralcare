@@ -33,11 +33,12 @@ export default class Total12 extends React.Component {
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
                 <Text style={{width:465,fontSize:22,left:70,marginTop:115}}>Para una salud bucal completa que te protege más allá de los dientes, reduciendo bacterias en lengua, mejillas y encías hasta por 12 horas*</Text>
+                <Text style={{marginTop:45,fontSize:20,left:75,color:'red'}}>*Con cuatro (4) semanas de uso continuo</Text>
             </View>
           </View>
         </View>
         <Submenu currentScreen="Multibeneficios" />
-        <ButtonSlide screenPrev="Fourscreen" screenNext="MenuMultiBeneficios" navigation={this.props.navigation}/>
+        <ButtonSlide screenPrev="MenuMultiBeneficios" screenNext="TotalProfessional" navigation={this.props.navigation}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>
     );
