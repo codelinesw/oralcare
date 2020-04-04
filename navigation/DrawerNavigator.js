@@ -16,6 +16,9 @@ import EnjuagueBucal from '../screens/Mejoratusonrisa/EnjuagueBucal'
 import VisitaAlOdontologo from '../screens/Mejoratusonrisa/VisitaAlOdontologo'
 import CambiaTuCepillo from '../screens/Mejoratusonrisa/CambiaTuCepillo'
 import ConsejosParaUnaBocaSana from '../screens/Mejoratusonrisa/ConsejosParaUnaBocaSana'
+import QuestionFirstScreen from '../screens/CuantoSabesDeCuidadoOral/QuestionFirstScreen'
+import QuestionSecondScreen from '../screens/CuantoSabesDeCuidadoOral/QuestionSecondScreen'
+import ResultQuestion from '../screens/CuantoSabesDeCuidadoOral/ResultQuestion'
 
 const RootStack = createStackNavigator(
   {
@@ -62,6 +65,15 @@ const DrawerNavigator = createDrawerNavigator(
     },
     ConsejosParaUnaBocaSana: {
       screen: ConsejosParaUnaBocaSana
+    },
+    QuestionFirstScreen: {
+      screen: QuestionFirstScreen
+    },
+    QuestionSecondScreen: {
+      screen: QuestionSecondScreen
+    },
+    ResultQuestion: {
+      screen: ResultQuestion
     }
   },
 );
