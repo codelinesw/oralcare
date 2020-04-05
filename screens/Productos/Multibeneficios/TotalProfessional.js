@@ -38,7 +38,7 @@ export default class TotalProfessional extends React.Component {
           </View>
         </View>
         <Submenu currentScreen="Multibeneficios" />
-        <ButtonSlide screenPrev="Total12" screenNext="EnciasSaludables" navigation={this.props.navigation}/>
+        <ButtonSlide screenPrev="EnciasSaludables" screenNext="AvancedTotal12" navigation={this.props.navigation}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>
     );

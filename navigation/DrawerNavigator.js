@@ -25,6 +25,8 @@ import Total12 from "../screens/Productos/Multibeneficios/Total12"
 import TotalProfessional from "../screens/Productos/Multibeneficios/TotalProfessional"
 import EnciasSaludables from "../screens/Productos/Multibeneficios/EnciasSaludables"
 import AlientoSaludable from "../screens/Productos/Multibeneficios/AlientoSaludable"
+import AvancedTotal12 from "../screens/Productos/Multibeneficios/AvancedTotal12"
+import UltraSoft from "../screens/Productos/Multibeneficios/UltraSoft"
 
 
 const RootStack = createStackNavigator(
@@ -99,6 +101,12 @@ const DrawerNavigator = createDrawerNavigator(
     },
     AlientoSaludable: {
       screen:AlientoSaludable
+    },
+    AvancedTotal12:{
+      screen: AvancedTotal12
+    },
+    UltraSoft: {
+      screen: UltraSoft
     }
   },
 );
