@@ -91,7 +91,7 @@ export default class Fourscreen extends React.Component {
             scrollBarIndicatorVisible="false"
             >
                 <View style={[styles.carousel]}>
-                  <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('Fourscreen')}><Image source={require('../images/screen-four/02.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
+                  <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('BlanqueamientoOne')}><Image source={require('../images/screen-four/02.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
                   <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('Fourscreen')}><Image source={require('../images/screen-four/03.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
                   <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('MultibeneficiosOne')}><Image source={require('../images/screen-four/01.png')} style={{width:180,height:180,transform: [{ scale: 1.5 }]}} /></TouchableOpacity>
                   <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('Fourscreen')}><Image source={require('../images/screen-four/04.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>

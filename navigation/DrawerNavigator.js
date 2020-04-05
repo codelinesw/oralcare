@@ -27,6 +27,11 @@ import EnciasSaludables from "../screens/Productos/Multibeneficios/EnciasSaludab
 import AlientoSaludable from "../screens/Productos/Multibeneficios/AlientoSaludable"
 import AvancedTotal12 from "../screens/Productos/Multibeneficios/AvancedTotal12"
 import UltraSoft from "../screens/Productos/Multibeneficios/UltraSoft"
+import BlanqueamientoOne from "../screens/Productos/Blanqueamiento/BlanqueamientoOne"
+import MenuBlanqueamiento from "../screens/Productos/Blanqueamiento/MenuBlanqueamiento"
+import LiminuosWhite from "../screens/Productos/Blanqueamiento/LiminuosWhite"
+import DientesBlancos from "../screens/Productos/Blanqueamiento/DientesBlancos"
+import MaxWhite from "../screens/Productos/Blanqueamiento/MaxWhite"
 
 
 const RootStack = createStackNavigator(
@@ -107,7 +112,23 @@ const DrawerNavigator = createDrawerNavigator(
     },
     UltraSoft: {
       screen: UltraSoft
+    },
+    BlanqueamientoOne: {
+      screen: BlanqueamientoOne
+    },
+    MenuBlanqueamiento: {
+      screen: MenuBlanqueamiento
+    },
+    LiminuosWhite: {
+      screen: LiminuosWhite
+    },
+    DientesBlancos: {
+      screen: DientesBlancos
+    },
+    MaxWhite: {
+      screen: MaxWhite
     }
+
   },
 );
 

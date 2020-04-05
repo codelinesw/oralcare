@@ -47,7 +47,7 @@ export default class MultibeneficiosOne extends React.Component {
             </View>
           </View>
         </View>
-        <ButtonSlide screenPrev="Fourscreen" screenNext="MenuMultiBeneficios" navigation={this.props.navigation}/>
+        <ButtonSlide screenPrev="Fourscreen" screenNext="MenuMultiBeneficios" navigation={this.props.navigation} showbutton={true}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>
     );
