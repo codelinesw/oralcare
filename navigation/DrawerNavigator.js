@@ -32,6 +32,24 @@ import MenuBlanqueamiento from "../screens/Productos/Blanqueamiento/MenuBlanquea
 import LiminuosWhite from "../screens/Productos/Blanqueamiento/LiminuosWhite"
 import DientesBlancos from "../screens/Productos/Blanqueamiento/DientesBlancos"
 import MaxWhite from "../screens/Productos/Blanqueamiento/MaxWhite"
+import Advanced_ from "../screens/Productos/Blanqueamiento/Advanced_"
+import CepilloLiminuosWhite from "../screens/Productos/Blanqueamiento/CepilloLiminuosWhite"
+import EnjuagueLiminuosWhite from "../screens/Productos/Blanqueamiento/EnjuagueLiminuosWhite"
+import SaludNaturalOne from "../screens/Productos/SaludNatural/SaludNaturalOne"
+import MenuSaludNatural from "../screens/Productos/SaludNatural/MenuSaludNatural"
+import DefensaReforzada from "../screens/Productos/SaludNatural/DefensaReforzada"
+import CocoyJengibre from "../screens/Productos/SaludNatural/CocoyJengibre"
+import CarbonActivado from "../screens/Productos/SaludNatural/CarbonActivado"
+import Bamboo from "../screens/Productos/SaludNatural/Bamboo"
+import CuidadoFamiliar from "../screens/Productos/CuidadoFamiliar/CuidadoFamiliar"
+import MaximaProteccion from "../screens/Productos/CuidadoFamiliar/MaximaProteccion"
+import MenucuidadoFamiliar from "../screens/Productos/CuidadoFamiliar/MenucuidadoFamiliar"
+import MentaOriginal from "../screens/Productos/CuidadoFamiliar/MentaOriginal"
+import XtraBlancura from "../screens/Productos/CuidadoFamiliar/XtraBlancura"
+import XtraFrescura from "../screens/Productos/CuidadoFamiliar/XtraFrescura"
+import TripleAccion_ from "../screens/Productos/CuidadoFamiliar/TripleAccion_"
+import SoftMint from "../screens/Productos/CuidadoFamiliar/SoftMint"
+import MenuSensibilidad from "../screens/Productos/Sensibilidad/MenuSensibilidad"
 
 
 const RootStack = createStackNavigator(
@@ -127,6 +145,61 @@ const DrawerNavigator = createDrawerNavigator(
     },
     MaxWhite: {
       screen: MaxWhite
+    },
+    Advanced_: {
+      screen:Advanced_
+    },
+    CepilloLiminuosWhite: {
+      screen: CepilloLiminuosWhite
+    },
+    EnjuagueLiminuosWhite: {
+      screen:EnjuagueLiminuosWhite
+    },
+    SaludNaturalOne: {
+      screen: SaludNaturalOne
+    },
+    MenuSaludNatural: {
+      screen: MenuSaludNatural
+    },
+    DefensaReforzada: {
+      screen: DefensaReforzada
+    },
+    CocoyJengibre: {
+      screen: CocoyJengibre
+    },
+    CarbonActivado: {
+      screen: CarbonActivado
+    },
+    Bamboo: {
+      screen: Bamboo
+    },
+    CuidadoFamiliar: {
+      screen: CuidadoFamiliar
+    },
+    MenucuidadoFamiliar: {
+      screen: MenucuidadoFamiliar
+    },
+    MaximaProteccion: {
+      screen: MaximaProteccion
+    },
+    MentaOriginal: {
+      screen: MentaOriginal
+    },
+    XtraBlancura: {
+      screen: XtraBlancura
+    },
+    XtraFrescura: {
+      screen: XtraFrescura
+    },
+    TripleAccion_: {
+      screen: TripleAccion_
+    },
+    SoftMint: {
+      screen: SoftMint
+    },
+
+    MenuSensibilidad: {
+      screen: MenuSensibilidad
     }
 
   },

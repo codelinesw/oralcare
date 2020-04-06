@@ -41,7 +41,7 @@ export default class MaxWhite extends React.Component {
           </View>
         </View>
         <Submenu currentScreen="Blanqueamiento" />
-        <ButtonSlide screenPrev="LiminuosWhite" screenNext="MaxWhite" navigation={this.props.navigation}/>
+        <ButtonSlide screenPrev="LiminuosWhite" screenNext="Advanced_" navigation={this.props.navigation}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>
     );
