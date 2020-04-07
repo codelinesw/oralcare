@@ -64,6 +64,7 @@ import BarbieMinions from "../screens/Productos/Cuidadodelosmaschicos/BarbieMini
 import LigadelaJusticia from "../screens/Productos/Cuidadodelosmaschicos/LigadelaJusticia"
 import Cepilloschicos from "../screens/Productos/Cuidadodelosmaschicos/Cepilloschicos"
 import CepillosPack from "../screens/Productos/Cuidadodelosmaschicos/CepillosPack"
+import EnjuaguePlaxMinions from "../screens/Productos/Cuidadodelosmaschicos/EnjuaguePlaxMinions"
 
 
 const RootStack = createStackNavigator(
@@ -255,6 +256,9 @@ const DrawerNavigator = createDrawerNavigator(
     },
     CepillosPack: {
       screen: CepillosPack
+    },
+    EnjuaguePlaxMinions: {
+      screen: EnjuaguePlaxMinions
     }
 
   },
