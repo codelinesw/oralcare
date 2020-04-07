@@ -50,6 +50,20 @@ import XtraFrescura from "../screens/Productos/CuidadoFamiliar/XtraFrescura"
 import TripleAccion_ from "../screens/Productos/CuidadoFamiliar/TripleAccion_"
 import SoftMint from "../screens/Productos/CuidadoFamiliar/SoftMint"
 import MenuSensibilidad from "../screens/Productos/Sensibilidad/MenuSensibilidad"
+import SensitiveProAlivio from "../screens/Productos/Sensibilidad/SensitiveProAlivio"
+import RealWhite from "../screens/Productos/Sensibilidad/RealWhite"
+import ReparacionCompleta from "../screens/Productos/Sensibilidad/ReparacionCompleta"
+import ProAlivio from "../screens/Productos/Sensibilidad/ProAlivio"
+import BlanqueamientoSensitive from "../screens/Productos/Sensibilidad/BlanqueamientoSensitive"
+import ProAlivioInmediato from "../screens/Productos/Sensibilidad/ProAlivioInmediato"
+import Cepillos from "../screens/Productos/Sensibilidad/Cepillos"
+import EnjuagueSensitiveProAlivio from "../screens/Productos/Sensibilidad/EnjuagueSensitiveProAlivio"
+import Cuidadodelosmaschicos from "../screens/Productos/Cuidadodelosmaschicos/Cuidadodelosmaschicos"
+import Menucuidadodeloasmaschicos from "../screens/Productos/Cuidadodelosmaschicos/Menucuidadodeloasmaschicos"
+import BarbieMinions from "../screens/Productos/Cuidadodelosmaschicos/BarbieMinions"
+import LigadelaJusticia from "../screens/Productos/Cuidadodelosmaschicos/LigadelaJusticia"
+import Cepilloschicos from "../screens/Productos/Cuidadodelosmaschicos/Cepilloschicos"
+import CepillosPack from "../screens/Productos/Cuidadodelosmaschicos/CepillosPack"
 
 
 const RootStack = createStackNavigator(
@@ -197,9 +211,50 @@ const DrawerNavigator = createDrawerNavigator(
     SoftMint: {
       screen: SoftMint
     },
-
+    SensitiveProAlivio: {
+      screen: SensitiveProAlivio
+    },
     MenuSensibilidad: {
       screen: MenuSensibilidad
+    },
+    RealWhite: {
+      screen: RealWhite
+    },
+    ReparacionCompleta: {
+      screen: ReparacionCompleta
+    },
+    ProAlivio: {
+      screen: ProAlivio
+    },
+    BlanqueamientoSensitive: {
+      screen: BlanqueamientoSensitive
+    },
+    ProAlivioInmediato: {
+      screen: ProAlivioInmediato
+    },
+    Cepillos: {
+      screen: Cepillos
+    },
+    EnjuagueSensitiveProAlivio: {
+      screen: EnjuagueSensitiveProAlivio
+    },
+    Cuidadodelosmaschicos: {
+      screen: Cuidadodelosmaschicos
+    },
+    Menucuidadodeloasmaschicos: {
+      screen: Menucuidadodeloasmaschicos
+    },
+    BarbieMinions: {
+      screen: BarbieMinions
+    },
+    LigadelaJusticia: {
+      screen: LigadelaJusticia
+    },
+    Cepilloschicos: {
+      screen: Cepilloschicos
+    },
+    CepillosPack: {
+      screen: CepillosPack
     }
 
   },

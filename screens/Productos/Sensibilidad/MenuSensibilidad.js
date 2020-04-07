@@ -94,7 +94,7 @@ export default class MenuSensibilidad extends React.Component {
             </View>
           </View>
         </View>
-        <ButtonSlide screenPrev="MultibeneficiosOne" screenNext="Total12" navigation={this.props.navigation}/>
+        <ButtonSlide screenPrev="SensitiveProAlivio" screenNext="RealWhite" navigation={this.props.navigation}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>
     );

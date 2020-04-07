@@ -95,8 +95,8 @@ export default class Fourscreen extends React.Component {
                   <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('SaludNaturalOne')}><Image source={require('../images/screen-four/03.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
                   <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('MultibeneficiosOne')}><Image source={require('../images/screen-four/01.png')} style={{width:180,height:180,transform: [{ scale: 1.5 }]}} /></TouchableOpacity>
                   <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('CuidadoFamiliar')}><Image source={require('../images/screen-four/04.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
-                  <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('MenuSensibilidad')}><Image source={require('../images/screen-four/05.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
-                  <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('Fourscreen')}><Image source={require('../images/screen-four/06.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
+                  <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('SensitiveProAlivio')}><Image source={require('../images/screen-four/05.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
+                  <TouchableOpacity style={styles.buttonButtonCarousel} onPress={() => this.props.navigation.navigate('Cuidadodelosmaschicos')}><Image source={require('../images/screen-four/06.png')} style={{width:180,height:180,transform: [{ scale: 1 }]}} /></TouchableOpacity>
                 </View>
             </ScrollView>
           </View>
