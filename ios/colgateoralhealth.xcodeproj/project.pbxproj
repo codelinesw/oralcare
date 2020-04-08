@@ -16,6 +16,12 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* colgateoralhealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* colgateoralhealthTests.m */; };
+		088F3B5CE21346FD9BCFE356 /* ColgateReady-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16CAED8B037843FFA376B326 /* ColgateReady-Italic.ttf */; };
+		0B6A5DF9A6364C59B6BE81CD /* ColgateReady-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E840157C34184039B18D197A /* ColgateReady-Light.ttf */; };
+		F89755400DBB4B6E9E0ACD35 /* ColgateReady.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6AA912043DE4CEFA92FD4FD /* ColgateReady.ttf */; };
+		087C51FB01B44650B63ABD1D /* ColgateReady-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 26B9EDBF67DF42EBAC700657 /* ColgateReady-Italic.otf */; };
+		F44BA26DCE55411593E98E53 /* ColgateReady-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA11E94592B441AFBED90C15 /* ColgateReady-Light.otf */; };
+		BF3247359A71449A8DF183B8 /* ColgateReady.otf in Resources */ = {isa = PBXBuildFile; fileRef = 466821B3F07442BEA389402A /* ColgateReady.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		2D02E4901E0B4A5D006451C7 /* colgateoralhealth-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "colgateoralhealth-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		16CAED8B037843FFA376B326 /* ColgateReady-Italic.ttf */ = {isa = PBXFileReference; name = "ColgateReady-Italic.ttf"; path = "../assets/fonts/ColgateReady-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E840157C34184039B18D197A /* ColgateReady-Light.ttf */ = {isa = PBXFileReference; name = "ColgateReady-Light.ttf"; path = "../assets/fonts/ColgateReady-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C6AA912043DE4CEFA92FD4FD /* ColgateReady.ttf */ = {isa = PBXFileReference; name = "ColgateReady.ttf"; path = "../assets/fonts/ColgateReady.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		26B9EDBF67DF42EBAC700657 /* ColgateReady-Italic.otf */ = {isa = PBXFileReference; name = "ColgateReady-Italic.otf"; path = "../assets/fonts/OFT/ColgateReady-Italic.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EA11E94592B441AFBED90C15 /* ColgateReady-Light.otf */ = {isa = PBXFileReference; name = "ColgateReady-Light.otf"; path = "../assets/fonts/OFT/ColgateReady-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		466821B3F07442BEA389402A /* ColgateReady.otf */ = {isa = PBXFileReference; name = "ColgateReady.otf"; path = "../assets/fonts/OFT/ColgateReady.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +152,7 @@
 				00E356EF1AD99517003FC87E /* colgateoralhealthTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				04642019A27147478782AA54 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +169,20 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		04642019A27147478782AA54 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				16CAED8B037843FFA376B326 /* ColgateReady-Italic.ttf */,
+				E840157C34184039B18D197A /* ColgateReady-Light.ttf */,
+				C6AA912043DE4CEFA92FD4FD /* ColgateReady.ttf */,
+				26B9EDBF67DF42EBAC700657 /* ColgateReady-Italic.otf */,
+				EA11E94592B441AFBED90C15 /* ColgateReady-Light.otf */,
+				466821B3F07442BEA389402A /* ColgateReady.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +322,12 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				088F3B5CE21346FD9BCFE356 /* ColgateReady-Italic.ttf in Resources */,
+				0B6A5DF9A6364C59B6BE81CD /* ColgateReady-Light.ttf in Resources */,
+				F89755400DBB4B6E9E0ACD35 /* ColgateReady.ttf in Resources */,
+				087C51FB01B44650B63ABD1D /* ColgateReady-Italic.otf in Resources */,
+				F44BA26DCE55411593E98E53 /* ColgateReady-Light.otf in Resources */,
+				BF3247359A71449A8DF183B8 /* ColgateReady.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

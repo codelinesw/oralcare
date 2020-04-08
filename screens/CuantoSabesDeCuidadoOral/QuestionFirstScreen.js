@@ -113,9 +113,9 @@ export default class QuestionFirstScreen extends React.Component {
           <View style={[styles.carousel,{top:40,width:WIDTH,height:HEIGHT-310}]}>
             <View style={[styles.panel_one,{width:(WIDTH/3),height:HEIGHT-310,alignItems:'center', alignItems:'center'}]}>
               <View style={{width:(WIDTH/3)-90,padding:10,paddingLeft:10,paddingRight:10,height:153,borderRadius:8}}>
-                <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'400'}}>¿<Text style={{color:'red',fontWeight:'bold'}}>Cuantas veces al dia</Text></Text>
-                <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'600'}}>hay que cepillarse</Text>
-                <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'600'}}>los dientes?</Text>
+                <Text style={{fontSize:25,textAlign:'center',fontWeight:'600',fontFamily:'ColgateReady-Italic',color:'red'}}>¿Cuántas veces al día</Text>
+                <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady',fontWeight:'600'}}>hay que cepillarse</Text>
+                <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady',fontWeight:'600'}}>los dientes?</Text>
                 <Image source={require('../../images/Preguntas/reactangulo-preguntas.png')} style={{position:'absolute',left:-25,top:0,width:(WIDTH/3)-30,paddingLeft:10,paddingRight:10,padding:10,height:140,borderRadius:8}} />
               </View>
               <View style={{width:(WIDTH/3)-90,height:380,marginTop:25}}>
@@ -124,7 +124,7 @@ export default class QuestionFirstScreen extends React.Component {
                 return(
                   <TouchableOpacity key={index} style={{flexDirection:'row',height:40, left:30,marginBottom:15}} onPress={() => this.chooseAnswer(index,item.valid)}>
                     <Image source={!this.state.AnswersFirstQuestion ? require('../../images/Preguntas/option.png') : this.state.IndexChooseAnswer == index ? (item.valid ? require('../../images/Preguntas/option-correcto.png') : require('../../images/Preguntas/option-incorrecto.png')) : (item.valid ? require('../../images/Preguntas/option.png') : require('../../images/Preguntas/option.png')) } style={{width:40,height:40}}/>
-                    <Text style={[{fontSize:22,top:3},stylevalid]}>{item.answer}</Text>
+                    <Text style={[{fontSize:22,top:3,fontFamily:'ColgateReady'},stylevalid]}>{item.answer}</Text>
                     {!this.state.AnswersFirstQuestion ? null : this.state.IndexChooseAnswer == index ? (item.valid ?
                       <Image source={require('../../images/Preguntas/rectangulo-respuesta.png')} style={{position:'absolute',left:-12,width:(WIDTH/3)-90,height:40}} />
                       : <Image source={require('../../images/Preguntas/rectangulo-respuesta.png')} style={{position:'absolute',left:-12,width:(WIDTH/3)-90,height:40}} />) : (item.valid ? <Image source={require('../../images/Preguntas/respuesta-correcta.png')} style={{position:'absolute',zIndex:-2,left:-12,width:(WIDTH/3)-90,height:40}} /> : null)}
@@ -135,9 +135,9 @@ export default class QuestionFirstScreen extends React.Component {
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/3),height:HEIGHT-310,alignItems:'center', alignItems:'center'}]}>
             <View style={{width:(WIDTH/3)-90,padding:10,paddingLeft:10,paddingRight:10,height:153,borderRadius:8}}>
-              <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'400'}}>¿Cual es el tiempo</Text>
-              <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'600'}}>indicado para un</Text>
-              <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'600'}}><Text style={{color:'red',fontWeight:'bold'}}>cepillado efectivo?</Text></Text>
+              <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady',fontWeight:'600'}}>¿Cuál es el tiempo</Text>
+              <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady',fontWeight:'600'}}>indicado para un</Text>
+              <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady-Italic',fontWeight:'600',color:'red'}}>cepillado efectivo?</Text>
               <Image source={require('../../images/Preguntas/reactangulo-preguntas.png')} style={{position:'absolute',left:-25,top:0,width:(WIDTH/3)-30,paddingLeft:10,paddingRight:10,padding:10,height:140,borderRadius:8}} />
             </View>
             <View style={{width:(WIDTH/3)-90,height:380,marginTop:25}}>
@@ -146,7 +146,7 @@ export default class QuestionFirstScreen extends React.Component {
               return(
                 <TouchableOpacity key={index} style={{flexDirection:'row',height:40, left:30,marginBottom:15}} onPress={() => this.chooseAnswerTwo(index,item.valid)}>
                   <Image source={!this.state.AnswersSecondQuestion ? require('../../images/Preguntas/option.png') : this.state.IndexChooseAnswerTwo == index ? (item.valid ? require('../../images/Preguntas/option-correcto.png') : require('../../images/Preguntas/option-incorrecto.png')) : (item.valid ? require('../../images/Preguntas/option.png') : require('../../images/Preguntas/option.png')) } style={{width:40,height:40}}/>
-                  <Text style={[{fontSize:22,top:3},stylevalid]}>{item.answer}</Text>
+                  <Text style={[{fontSize:22,top:3,fontFamily:'ColgateReady'},stylevalid]}>{item.answer}</Text>
                   {!this.state.AnswersSecondQuestion ? null : this.state.IndexChooseAnswerTwo == index ? (item.valid ?
                     <Image source={require('../../images/Preguntas/rectangulo-respuesta.png')} style={{position:'absolute',left:-12,width:(WIDTH/3)-90,height:40}} />
                     : <Image source={require('../../images/Preguntas/rectangulo-respuesta.png')} style={{position:'absolute',left:-12,width:(WIDTH/3)-90,height:40}} />) : (item.valid ? <Image source={require('../../images/Preguntas/respuesta-correcta.png')} style={{position:'absolute',zIndex:-2,left:-12,width:(WIDTH/3)-90,height:40}} /> : null)}
@@ -157,9 +157,9 @@ export default class QuestionFirstScreen extends React.Component {
             </View>
             <View style={[styles.panel_third,{width:(WIDTH/3),height:HEIGHT-310, alignItems:'center', alignItems:'center'}]}>
             <View style={{width:(WIDTH/3)-90,padding:10,paddingLeft:10,paddingRight:10,height:153,borderRadius:8}}>
-              <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'400'}}>¿Cuando deberia ser</Text>
-              <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'600'}}><Text style={{color:'red',fontWeight:'bold'}}>la primer visita</Text></Text>
-              <Text style={{fontSize:25,textAlign:'center',fontStyle: 'italic',fontWeight:'600'}}>al odontologo?</Text>
+              <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady',fontWeight:'600'}}>¿Cuando deberia ser</Text>
+              <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady-Italic',fontWeight:'600',color:'red'}}>la primer visita</Text>
+              <Text style={{fontSize:25,textAlign:'center',fontFamily:'ColgateReady',fontWeight:'600'}}>al odontologo?</Text>
               <Image source={require('../../images/Preguntas/reactangulo-preguntas.png')} style={{position:'absolute',left:-25,top:0,width:(WIDTH/3)-30,paddingLeft:10,paddingRight:10,padding:10,height:140,borderRadius:8}} />
             </View>
             <View style={{width:(WIDTH/3)-90,height:380,marginTop:25}}>
@@ -168,7 +168,7 @@ export default class QuestionFirstScreen extends React.Component {
               return(
                 <TouchableOpacity key={index} style={{flexDirection:'row',height:40, left:30,marginBottom:15}} onPress={() => this.chooseAnswerThird(index,item.valid)}>
                   <Image source={!this.state.AnswersThirdQuestion ? require('../../images/Preguntas/option.png') : this.state.IndexChooseAnswerThird == index ? (item.valid ? require('../../images/Preguntas/option-correcto.png') : require('../../images/Preguntas/option-incorrecto.png')) : (item.valid ? require('../../images/Preguntas/option.png') : require('../../images/Preguntas/option.png')) } style={{width:40,height:40}}/>
-                  <Text style={[{fontSize:22,top:3},stylevalid]}>{item.answer}</Text>
+                  <Text style={[{fontSize:22,top:3,fontFamily:'ColgateReady'},stylevalid]}>{item.answer}</Text>
                   {!this.state.AnswersThirdQuestion ? null : this.state.IndexChooseAnswerThird == index ? (item.valid ?
                     <Image source={require('../../images/Preguntas/rectangulo-respuesta.png')} style={{position:'absolute',left:-12,width:(WIDTH/3)-90,height:40}} />
                     : <Image source={require('../../images/Preguntas/rectangulo-respuesta.png')} style={{position:'absolute',left:-12,width:(WIDTH/3)-90,height:40}} />) : (item.valid ? <Image source={require('../../images/Preguntas/respuesta-correcta.png')} style={{position:'absolute',zIndex:-2,left:-12,width:(WIDTH/3)-90,height:40}} /> : null)}
