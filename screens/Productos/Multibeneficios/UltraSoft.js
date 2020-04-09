@@ -32,16 +32,16 @@ export default class UltraSoft extends React.Component {
                 <Image source={require('../../../images/Productos/Multibeneficios/UltraSoft/Imagen.png')} style={{left:45,top:-1125,width:680,height:2420,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{color:'red',fontSize:22,right:150,fontWeight:'bold',marginTop:40,marginBottom:15,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{textAlign:'left',right:150,marginBottom:5}}>Ultra suave.</Text>
-            <Text style={{textAlign:'left',right:150,marginBottom:5 }}>1 mm ultra suaves filamentos en alta densidad para una gentil y eficaz limpieza.</Text>
-            <Text style={{textAlign:'left',right:150,marginBottom:5}}>Gentil en las encías.</Text>
-            <Text style={{textAlign:'left',right:150,marginBottom:5}}>Remueve las manchas superficiales.</Text>
-            <Text style={{textAlign:'left',right:150,marginBottom:5}}>Ayuda a proteger de las caries.</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:150,marginTop:40,marginBottom:15}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:150,marginBottom:5}]}>Ultra suave.</Text>
+            <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:150,marginBottom:5 }]}>1 mm ultra suaves filamentos en alta densidad para una gentil y eficaz limpieza.</Text>
+            <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:150,marginBottom:5}]}>Gentil en las encías.</Text>
+            <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:150,marginBottom:5}]}>Remueve las manchas superficiales.</Text>
+            <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:150,marginBottom:5}]}>Ayuda a proteger de las caries.</Text>
             </View>
           </View>
         </View>
-        <Submenu currentScreen="Multibeneficios" />
+        <Submenu currentScreen="SaludNatural" />
         <ButtonSlide screenPrev="AvancedTotal12" screenNext="MenuMultiBeneficios" navigation={this.props.navigation}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>

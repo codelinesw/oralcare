@@ -64,6 +64,10 @@ target 'colgateoralhealth' do
 
   pod 'RNCMaskedView', :path => '../node_modules/@react-native-community/masked-view'
 
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'colgateoralhealthTests' do
     inherit! :complete
     # Pods for testing

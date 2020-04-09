@@ -32,8 +32,8 @@ export default class Total12 extends React.Component {
                 <Image source={require('../../../images/Productos/Multibeneficios/Total12-Clean-Mint/Imagen-01.png')} style={{left:45,marginTop:60,width:910,height:320,transform: [{ scale: 0.8 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{width:465,fontSize:22,left:70,marginTop:115}}>Para una salud bucal completa que te protege más allá de los dientes, reduciendo bacterias en lengua, mejillas y encías hasta por 12 horas*</Text>
-                <Text style={{marginTop:45,fontSize:20,left:75,color:'red'}}>*Con cuatro (4) semanas de uso continuo</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:22,left:70,marginTop:115}]}>Para una salud bucal completa que te protege más allá de los dientes, reduciendo bacterias en lengua, mejillas y encías hasta por 12 horas*</Text>
+                <Text style={[styles.globalText,{marginTop:45,fontSize:20,left:75,color:'red'}]}>*Con cuatro (4) semanas de uso continuo</Text>
             </View>
           </View>
         </View>

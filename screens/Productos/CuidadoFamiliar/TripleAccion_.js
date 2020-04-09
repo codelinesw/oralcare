@@ -32,10 +32,10 @@ export default class TripleAccion_ extends React.Component {
                 <Image source={require('../../../images/Productos/CuidadoFamiliar/TripleAccion/Imagen.png')} style={{right:45,top:-1345,width:700,height:2950,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,right:240,fontWeight:'bold',marginTop:140,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:465,fontSize:18,right:240,marginTop:1}}>Ayuda a remover delicadamente las manchas a revelar el blanco natural de los dientes.</Text>
-                <Text style={{marginTop:3,fontSize:15,right:240,width:385}}>Efectiva remoción de la placa bacteriana</Text>
-                <Text style={{marginTop:3,fontSize:15,right:240}}>Refresca el aliento</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:240,marginTop:140,marginBottom:2}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:240,marginTop:1}]}>Ayuda a remover delicadamente las manchas a revelar el blanco natural de los dientes.</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:240,width:385}]}>Efectiva remoción de la placa bacteriana</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:240}]}>Refresca el aliento</Text>
             </View>
           </View>
         </View>

@@ -32,12 +32,12 @@ export default class EnjuaguePlaxMinions extends React.Component {
               <Image source={require('../../../images/Productos/Cuidadodelosmaschicos/EnjuaguePlaxMinions/Imagen.png')} style={{left:45,top:-1085,width:1140,height:2460,transform: [{ scale: 0.23 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-              <Text style={{fontSize:20,right:100,width:450,marginTop:20,}}>Enjuague bucal con flúor que ayuda a fortalecer el esmalte y brinda protección anticaries para los niños.</Text>
-              <Text style={{color:'red',fontSize:22,right:100,fontWeight:'bold',marginTop:30,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-              <Text style={{width:465,fontSize:18,right:100,marginTop:1,marginBottom:5}}>Ahora presentando por los personajes favoritos de tus hijos, los minions!</Text>
-              <Text style={{marginTop:3,fontSize:15,right:100,width:455,marginBottom:5}}>Limpia toda la boca, eliminando las partículas que pudieron haber quedado después del cepillado</Text>
-              <Text style={{marginTop:3,fontSize:15,right:100,width:455,marginBottom:5}}>Fun Bello TM Bubble Fruit R , con sabor a chicle de frutas que los niños disfrutarán.</Text>
-              <Text style={{marginTop:3,fontSize:15,right:100,width:455,marginBottom:5}}>Recomendado para niños mayores a 6 años.</Text>
+              <Text style={[styles.globalText,{fontSize:20,right:100,width:450,marginTop:20}]}>Enjuague bucal con flúor que ayuda a fortalecer el esmalte y brinda protección anticaries para los niños.</Text>
+              <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:100,marginTop:30,marginBottom:2}]}>BENEFICIOS:</Text>
+              <Text style={[styles.globalText,{width:465,fontSize:18,right:100,marginTop:1,marginBottom:5}]}>Ahora presentando por los personajes favoritos de tus hijos, los minions!</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:100,width:455,marginBottom:5}]}>Limpia toda la boca, eliminando las partículas que pudieron haber quedado después del cepillado</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:100,width:455,marginBottom:5}]}>Fun Bello TM Bubble Fruit R , con sabor a chicle de frutas que los niños disfrutarán.</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:100,width:455,marginBottom:5}]}>Recomendado para niños mayores a 6 años.</Text>
             </View>
           </View>
         </View>

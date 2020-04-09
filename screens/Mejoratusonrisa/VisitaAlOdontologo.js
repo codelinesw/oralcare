@@ -14,33 +14,7 @@ export default class CepillaTusDientes extends React.Component {
     super(props);
 
     this.state = {
-      data: [
-        {
-          id:0,
-          img:require('../../images/screen-four/01.png')
-        },
-        {
-          id:1,
-          img:require('../../images/screen-four/02.png')
-        },
-        {
-          id:2,
-          img:require('../../images/screen-four/03.png')
-        },
-        {
-          id:3,
-          img:require('../../images/screen-four/04.png')
-        },
-        {
-          id:4,
-          img:require('../../images/screen-four/05.png')
-        },
-        {
-          id:5,
-          img:require('../../images/screen-four/06.png')
-        },
-
-      ]
+      data: [""]
 
     };
     this.CurrentSlide = 0;
@@ -56,9 +30,6 @@ export default class CepillaTusDientes extends React.Component {
     // },6000);
   }
 
-  componentWillUnmount(){
-    clearInterval(this.start);
-  }
 
   render(){
     return (
@@ -77,13 +48,13 @@ export default class CepillaTusDientes extends React.Component {
             </View>
             <View style={[styles.panel_right,{width:(WIDTH/2),height:HEIGHT-230}]}>
               <View style={{flexDirection:'column',marginBottom:5, alignItems:'center'}}>
-                <Text style={{color:'red',fontSize:25,fontWeight:'bold', marginTop:25}}>INFORMACIÓN GENERAL</Text>
-                <Text style={[{marginTop:10,fontSize:15,width:450, marginBottom:25}]}>Cuidarse los dientes signiﬁca más que cepillarse y usar hilo dental. Para cuidarse de forma completa es importante visitar al dentista cada seis meses para realizarse chequeos y
+                <Text style={[styles.globalText,{color:'red',fontSize:20,marginTop:25}]}>INFORMACIÓN GENERAL</Text>
+                <Text style={[styles.globalText,{marginTop:10,fontSize:17,width:470, marginBottom:25}]}>Cuidarse los dientes signiﬁca más que cepillarse y usar hilo dental. Para cuidarse de forma completa es importante visitar al dentista cada seis meses para realizarse chequeos y
 limpiezas profesionales. El primer paso del proceso es encontrar un dentista con quien se sienta cómodo, y luego concertar una cita.</Text>
               </View>
               <View style={{flexDirection:'column',marginBottom:25, alignItems:'center'}}>
-                <Text style={{color:'red',fontSize:25,fontWeight:'bold', marginTop:25}}>¿QUÉ ESPERAR DE LA VISITA AL DENTISTA?</Text>
-                <Text style={[{marginTop:10,fontSize:15,width:450, marginBottom:25}]}>Durante su primera visita al dentista, este establecerá el historial completo de su salud. En las visitas de seguimiento, si su estado de salud ha cambiado, no se olvide de comentárselo al dentista..</Text>
+                <Text style={[styles.globalText,{color:'red',fontSize:20,marginTop:15}]}>¿QUÉ ESPERAR DE LA VISITA AL DENTISTA?</Text>
+                <Text style={[styles.globalText,{marginTop:10,fontSize:17,width:450, marginBottom:25}]}>Durante su primera visita al dentista, este establecerá el historial completo de su salud. En las visitas de seguimiento, si su estado de salud ha cambiado, no se olvide de comentárselo al dentista..</Text>
               </View>
             </View>
           </View>

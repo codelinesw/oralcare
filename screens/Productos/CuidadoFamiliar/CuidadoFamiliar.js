@@ -31,10 +31,10 @@ export default class CuidadoFamiliar extends React.Component {
                 <Image source={require('../../../images/Productos/CuidadoFamiliar/Imagen.png')} style={{marginTop:-120,width:410,height:450,transform: [{ scale: 1 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{color:'red',fontSize:22,right:40,fontWeight:'bold',marginTop:100,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,right:40,marginTop:1,marginBottom:5}}>Extra blancura.</Text>
-            <Text style={{marginTop:3,fontSize:15,right:40,width:385,marginBottom:5}}>Protección anticaries</Text>
-            <Text style={{marginTop:3,fontSize:15,right:40,marginBottom:5}}>Aliento fresco</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:40,marginTop:120,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,right:40,marginTop:1,marginBottom:5}]}>Extra blancura.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:18,right:40,width:385,marginBottom:5}]}>Protección anticaries</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:18,right:40,marginBottom:5}]}>Aliento fresco</Text>
             </View>
           </View>
         </View>

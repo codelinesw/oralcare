@@ -32,11 +32,11 @@ export default class BlanqueamientoSensitive extends React.Component {
                 <Image source={require('../../../images/Productos/Sensibilidad/BlanqueamientoSensitive/Imagen.png')} style={{left:45,marginTop:-30,width:1550,height:620,transform: [{ scale: 0.4 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{fontSize:18,left:40,marginTop:5,marginBottom:28,width:535}}>Su fórmula ayuda a aliviar la sensibilidad del diente y crea un escudo protector, ayudando a proporcionar rápido alivio contra la sensibilidad dental y un sistema blanqueador que ayuda a combatir la formación del sarro y remover suavemente las manchas dejando sus dientes más blancos. Proporciona también la protección contra la caries, placa y un delicioso sabor refrescante.</Text>
-            <Text style={{color:'red',fontSize:22,left:40,fontWeight:'bold',marginTop:20,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,left:40,marginTop:1,marginBottom:5}}>Sabor refrescante.</Text>
-            <Text style={{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}}>SAyuda a remover manchas</Text>
-            <Text style={{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}}>Protección comprobada.</Text>
+            <Text style={[styles.globalText,{fontSize:18,left:40,marginTop:5,marginBottom:28,width:535}]}>Su fórmula ayuda a aliviar la sensibilidad del diente y crea un escudo protector, ayudando a proporcionar rápido alivio contra la sensibilidad dental y un sistema blanqueador que ayuda a combatir la formación del sarro y remover suavemente las manchas dejando sus dientes más blancos. Proporciona también la protección contra la caries, placa y un delicioso sabor refrescante.</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:40,marginTop:20,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,left:40,marginTop:1,marginBottom:5}]}>Sabor refrescante.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}]}>SAyuda a remover manchas</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}]}>Protección comprobada.</Text>
             </View>
           </View>
         </View>

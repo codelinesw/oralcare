@@ -32,12 +32,12 @@ export default class ReparacionCompleta extends React.Component {
                 <Image source={require('../../../images/Productos/Sensibilidad/ReparacionCompleta/Imagen.png')} style={{left:45,marginTop:-120,width:1550,height:620,transform: [{ scale: 0.4 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{color:'red',fontSize:22,left:80,fontWeight:'bold',marginTop:40,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}}>Exclusiva fórmula Pro-Argin TM.</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}}>Su fórmula sella los túbulos expuestos para el alivio instantáneo y duradero de la sensibilidad</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}}>Con el uso regular, el zinc ayuda a fortalecer la encía para reducir la recesión que exponen los túbulos de los dientes que generan la sensibilidad.</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}}>Clínicamente comprobado.</Text>
-            <Text style={{marginTop:25,fontSize:15,left:80,marginBottom:8,width:400}}>*Con aplicación directa, masajeando cada diente sensible durante 1 minuto.</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:80,marginTop:40,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}]}>Exclusiva fórmula Pro-Argin TM.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}]}>Su fórmula sella los túbulos expuestos para el alivio instantáneo y duradero de la sensibilidad</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}]}>Con el uso regular, el zinc ayuda a fortalecer la encía para reducir la recesión que exponen los túbulos de los dientes que generan la sensibilidad.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}]}>Clínicamente comprobado.</Text>
+            <Text style={[styles.globalText,{marginTop:25,fontSize:15,left:80,marginBottom:8,width:400}]}>*Con aplicación directa, masajeando cada diente sensible durante 1 minuto.</Text>
             </View>
           </View>
         </View>

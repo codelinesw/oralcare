@@ -32,13 +32,13 @@ export default class XtraFrescura extends React.Component {
                 <Image source={require('../../../images/Productos/CuidadoFamiliar/XtraFrescura/Imagen.png')} style={{left:45,marginTop:-40,width:1550,height:620,transform: [{ scale: 0.4 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{fontSize:20,left:80,width:260,marginTop:-5,marginBottom:28}}>Nuevo Triple acción* Xtra frescura con micro cristales una sensación refrescante.</Text>
-            <Text style={{color:'red',fontSize:22,left:80,fontWeight:'bold',marginTop:0,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}}>Explosión de frescura.</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,width:385,marginBottom:5}}>Sensación refrescante</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,marginBottom:5}}>Sabor intenso</Text>
-            <Text style={{marginTop:40,fontSize:15,left:80,marginBottom:8}}>Además de ofrecer los beneficios que ya conoces, frescura y protección anticaries para toda tu familia.</Text>
-            <Text style={{marginTop:0,fontSize:15,left:80,marginBottom:5}}>*Frescura, dientes blancos y protección anticaries.</Text>
+            <Text style={[styles.globalText,{fontSize:20,left:80,width:260,marginTop:-5,marginBottom:28,lineHeight:19}]}>Nuevo Triple acción* Xtra frescura con micro cristales una sensación refrescante.</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:80,marginTop:0,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,left:80,marginTop:1,marginBottom:3}]}>Explosión de frescura.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,width:385,marginBottom:3}]}>Sensación refrescante</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,marginBottom:3}]}>Sabor intenso</Text>
+            <Text style={[styles.globalText,{marginTop:40,fontSize:15,left:80,marginBottom:8}]}>Además de ofrecer los beneficios que ya conoces, frescura y protección anticaries para toda tu familia.</Text>
+            <Text style={[styles.globalText,{marginTop:0,fontSize:15,left:80,marginBottom:3}]}>*Frescura, dientes blancos y protección anticaries.</Text>
             </View>
           </View>
         </View>

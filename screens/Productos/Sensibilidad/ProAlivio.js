@@ -32,11 +32,11 @@ export default class ProAlivio extends React.Component {
                 <Image source={require('../../../images/Productos/Sensibilidad/ProAlivio/Imagen.png')} style={{marginTop:-20,width:510,height:450,transform: [{ scale: 0.95 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{fontSize:20,right:40,marginTop:25,marginBottom:28}}>Alivio instantáneo* y duradero** de la sensibilidad.</Text>
-            <Text style={{color:'red',fontSize:22,right:40,fontWeight:'bold',marginTop:30,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,right:40,marginTop:1,marginBottom:5}}>Exclusiva fórmula Pro-Argin TM</Text>
-            <Text style={{marginTop:40,fontSize:15,right:40,marginBottom:8}}>*Con aplicación directa</Text>
-            <Text style={{marginTop:0,fontSize:15,right:40,marginBottom:8}}>**Con un cepillado diario</Text>
+            <Text style={[styles.globalText,{fontSize:20,right:40,marginTop:25,marginBottom:28}]}>Alivio instantáneo* y duradero** de la sensibilidad.</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:40,marginTop:30,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,right:40,marginTop:1,marginBottom:5}]}>Exclusiva fórmula Pro-Argin TM</Text>
+            <Text style={[styles.globalText,{marginTop:40,fontSize:15,right:40,marginBottom:8}]}>*Con aplicación directa</Text>
+            <Text style={[styles.globalText,{marginTop:0,fontSize:15,right:40,marginBottom:8}]}>**Con un cepillado diario</Text>
             </View>
           </View>
         </View>

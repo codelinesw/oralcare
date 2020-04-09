@@ -32,9 +32,9 @@ export default class LiminuosWhite extends React.Component {
                 <Image source={require('../../../images/Productos/Blanqueamiento/LiminuosWhite/Imagen.png')} style={{left:45,marginTop:-110,width:910,height:580,transform: [{ scale: 0.7 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,left:70,fontWeight:'bold',marginTop:110,marginBottom:0,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:525,fontSize:22,left:70,marginTop:5}}>Sus microcristales aceleradores de blanqueamiento contienen ingredientes similares a los usados por los dentistas</Text>
-                <Text style={{marginTop:45,fontSize:18,left:75,width:525}}>*Mediante el cepillado con crema dental Colgate Luminous White vs crema dental regular con flúor</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:70,marginTop:110,marginBottom:0}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:525,fontSize:22,left:70,marginTop:5}]}>Sus microcristales aceleradores de blanqueamiento contienen ingredientes similares a los usados por los dentistas</Text>
+                <Text style={[styles.globalText,{marginTop:45,fontSize:18,left:75,width:525}]}>*Mediante el cepillado con crema dental Colgate Luminous White vs crema dental regular con flúor</Text>
             </View>
           </View>
         </View>

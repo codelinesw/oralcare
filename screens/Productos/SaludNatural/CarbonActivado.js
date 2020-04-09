@@ -32,8 +32,9 @@ export default class CarbonActivado extends React.Component {
                 <Image source={require('../../../images/Productos/SaludNatural/CarbonActivado&Menta/Imagen.png')} style={{right:45,top:-1005,width:2380,height:2460,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{fontSize:20,right:80,width:660,marginTop:120,marginBottom:8}}>Los científicos de Colgate, después de años de investigación, han combinado el carbón activado y la menta, en una exclusiva fórmula con espuma activa que ayuda a eliminar las impurezas* y proteger tus dientes.</Text>
-                <Text style={{width:465,fontSize:16,right:80,marginTop:65}}>* Con cepillado regular</Text>
+                <Text style={[styles.globalText,{color:'red',fontSize:22,right:80,width:660,marginTop:50,marginBottom:8}]}>Sorprendete con su purificante y refrescante sensación.</Text>
+                <Text style={[styles.globalText,{fontSize:20,right:80,width:660,marginTop:20,marginBottom:8}]}>Los científicos de Colgate, después de años de investigación, han combinado el carbón activado y la menta, en una exclusiva fórmula con espuma activa que ayuda a eliminar las impurezas* y proteger tus dientes.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:16,right:80,marginTop:65}]}>* Con cepillado regular</Text>
             </View>
           </View>
         </View>

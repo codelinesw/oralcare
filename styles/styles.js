@@ -117,8 +117,18 @@ const styles = StyleSheet.create({
   },
   secondTitle: {
     fontSize:25,
-  }
+  },
 
+  //color y font type for all text
+
+  globalText: {
+    color:'#525252',
+    fontFamily:'ColgateReady',
+  },
+  
+  ItalicText: {
+    fontFamily:'ColgateReady-Italic'
+  }
 
 });
 

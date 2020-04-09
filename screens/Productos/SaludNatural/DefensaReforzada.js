@@ -32,11 +32,11 @@ export default class DefensaReforzada extends React.Component {
                 <Image source={require('../../../images/Productos/SaludNatural/DefensaReforzada/Imagen.png')} style={{right:45,top:-1005,width:2380,height:2460,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{fontSize:20,right:80,width:660,marginTop:60,marginBottom:8}}>Colgate Natural Extracts contiene extractos de limón, lima, naranja y eucalipto con un toque de menta verde. Su combinación única de ingredientes naturales y lo mejor de la ciencia de Colgate te ayudan a fortalecer tus dientes y te brinda una sensación natural de frescura.</Text>
-                <Text style={{color:'red',fontSize:22,right:80,fontWeight:'bold',marginTop:20,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:465,fontSize:18,right:80,marginTop:1}}>Explosión de sabores para el cuidado de tu sonrisa.</Text>
-                <Text style={{marginTop:3,fontSize:15,right:80,width:385}}>Contiene extractos de limón, lima, naranja y eucalipto con un toque de hierbabuena que ayudan a fortalecer los dientes y refrescar su boca</Text>
-                <Text style={{marginTop:3,fontSize:15,right:80}}>Ayuda a fortalecer los dientes y proporciona una sensación natural refrescante</Text>
+                <Text style={[styles.globalText,{fontSize:20,right:80,width:660,marginTop:60,marginBottom:8}]}>Colgate Natural Extracts contiene extractos de limón, lima, naranja y eucalipto con un toque de menta verde. Su combinación única de ingredientes naturales y lo mejor de la ciencia de Colgate te ayudan a fortalecer tus dientes y te brinda una sensación natural de frescura.</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:80,marginTop:20,marginBottom:2}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:80,marginTop:1}]}>Explosión de sabores para el cuidado de tu sonrisa.</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:80,width:385}]}>Contiene extractos de limón, lima, naranja y eucalipto con un toque de hierbabuena que ayudan a fortalecer los dientes y refrescar su boca</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:15,right:80}]}>Ayuda a fortalecer los dientes y proporciona una sensación natural refrescante</Text>
             </View>
           </View>
         </View>

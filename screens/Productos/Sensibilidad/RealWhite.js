@@ -32,12 +32,12 @@ export default class RealWhite extends React.Component {
                 <Image source={require('../../../images/Productos/Sensibilidad/RealWhite/Imagen.png')} style={{left:45,marginTop:-120,width:1550,height:620,transform: [{ scale: 0.4 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{fontSize:20,left:80,width:300,marginTop:-5,marginBottom:28,color:'red'}}>Alivio instantáneo* y duradero** de la sensibilidad más blanqueadora.</Text>
-            <Text style={{color:'red',fontSize:22,left:80,fontWeight:'bold',marginTop:0,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}}>Exclusiva fórmula Pro-Argin TM.</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}}>Fórmula de baja abrasión suave y elimina eficazmente las manchas, ayudando a restablecer la blancura natural de los dientes</Text>
-            <Text style={{marginTop:40,fontSize:15,left:80,marginBottom:8}}>*Con aplicación directa.</Text>
-            <Text style={{marginTop:0,fontSize:15,left:80,marginBottom:5}}>**Con un cepillado diario</Text>
+            <Text style={[styles.globalText,{fontSize:20,left:80,width:300,marginTop:-5,marginBottom:28,color:'red'}]}>Alivio instantáneo* y duradero** de la sensibilidad más blanqueadora.</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:80,marginTop:0,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}]}>Exclusiva fórmula Pro-Argin TM.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,width:455,marginBottom:5}]}>Fórmula de baja abrasión suave y elimina eficazmente las manchas, ayudando a restablecer la blancura natural de los dientes</Text>
+            <Text style={[styles.globalText,{marginTop:40,fontSize:15,left:80,marginBottom:8}]}>*Con aplicación directa.</Text>
+            <Text style={[styles.globalText,{marginTop:0,fontSize:15,left:80,marginBottom:5}]}>**Con un cepillado diario</Text>
             </View>
           </View>
         </View>

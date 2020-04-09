@@ -32,10 +32,10 @@ export default class EnjuagueLiminuosWhite extends React.Component {
                 <Image source={require('../../../images/Productos/Blanqueamiento/EnjuagueLiminuosWhite/Imagen.png')} style={{right:45,top:-1125,width:1140,height:2460,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{fontSize:22,right:150,width:380,marginTop:70,marginBottom:8}}>Ayuda a mantener el blanco natural de los dientes y refresca el aliento.</Text>
-                <Text style={{color:'red',fontSize:22,right:150,fontWeight:'bold',marginTop:20,marginBottom:5,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:465,fontSize:18,right:150,marginTop:1,width:370}}>Asegura una sonrisa brillante y una boca siempre fresca.</Text>
-                <Text style={{marginTop:30,fontSize:15,right:150,width:425}}>*Para obtener los mejores resultados, utilice la línea completa de Colgate Luminous White</Text>
+                <Text style={[styles.globalText,{fontSize:22,right:150,width:380,marginTop:70,marginBottom:8}]}>Ayuda a mantener el blanco natural de los dientes y refresca el aliento.</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:150,marginTop:20,marginBottom:5,}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:150,marginTop:1,width:370}]}>Asegura una sonrisa brillante y una boca siempre fresca.</Text>
+                <Text style={[styles.globalText,{marginTop:30,fontSize:15,right:150,width:425}]}>*Para obtener los mejores resultados, utilice la línea completa de Colgate Luminous White</Text>
             </View>
           </View>
         </View>

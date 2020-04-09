@@ -14,39 +14,11 @@ export default class CepillaTusDientes extends React.Component {
     super(props);
 
     this.state = {
-      data: [
-        {
-          id:0,
-          img:require('../../images/screen-four/01.png')
-        },
-        {
-          id:1,
-          img:require('../../images/screen-four/02.png')
-        },
-        {
-          id:2,
-          img:require('../../images/screen-four/03.png')
-        },
-        {
-          id:3,
-          img:require('../../images/screen-four/04.png')
-        },
-        {
-          id:4,
-          img:require('../../images/screen-four/05.png')
-        },
-        {
-          id:5,
-          img:require('../../images/screen-four/06.png')
-        },
 
-      ]
+      data: [""]
 
     };
-    this.CurrentSlide = 0;
-    this.IntervalTime = 4000;
-    this.scrollx = new Animated.Value(0);
-    this.start = "";
+
 
   }
 
@@ -90,8 +62,8 @@ export default class CepillaTusDientes extends React.Component {
             </View>
             </View>
             <View style={[styles.panel_right,{width:(WIDTH/2)+100,height:HEIGHT-230, alignItems:'center'}]}>
-              <Text style={[{marginTop:50,fontSize:25,width:450, marginBottom:25}]}>*Enjuaga tus dientes durante 1 minuto con tu enjuague de elección para completar tu higiene bucal.</Text>
-              <Text style={[{fontSize:25,width:450}]}>*Usando tu enjuague bucal preferido durante un minuto luego del cepillado lograras un complemento perfecto para el cuidado de tu sonrisa.</Text>
+              <Text style={[{marginTop:50,fontSize:25,width:460, marginBottom:25},styles.globalText]}><Text style={{color:'red'}}>* </Text>Enjuaga tus dientes durante 1 minuto con tu enjuague de elección para completar tu higiene bucal.</Text>
+              <Text style={[{fontSize:25,width:450},styles.globalText]}><Text style={{color:'red'}}>* </Text>Usando tu enjuague bucal preferido durante un minuto luego del cepillado lograras un complemento perfecto para el cuidado de tu sonrisa.</Text>
             </View>
           </View>
         </View>

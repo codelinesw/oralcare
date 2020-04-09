@@ -31,12 +31,12 @@ export default class EnjuagueSensitiveProAlivio extends React.Component {
             <View style={[styles.panel_one,{width:(WIDTH/2),height:HEIGHT-310,alignItems:'center', alignItems:'center'}]}>
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-              <Text style={{color:'red',fontSize:22,left:40,fontWeight:'bold',marginTop:110,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-              <Text style={{width:465,fontSize:18,left:40,marginTop:1,marginBottom:5}}>Exclusiva fórmula Pro-Argin TM.</Text>
-              <Text style={{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}}>Clínicamente comprobado</Text>
-              <Text style={{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}}>Repara áreas sensibles.</Text>
-              <Text style={{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}}>Aliento increíble.</Text>
-              <Text style={{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}}>Cero alcohol.</Text>
+              <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:40,marginTop:110,marginBottom:2}]}>BENEFICIOS:</Text>
+              <Text style={[styles.globalText,{width:465,fontSize:18,left:40,marginTop:1,marginBottom:5}]}>Exclusiva fórmula Pro-Argin TM.</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}]}>Clínicamente comprobado</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}]}>Repara áreas sensibles.</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}]}>Aliento increíble.</Text>
+              <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:40,width:455,marginBottom:5}]}>Cero alcohol.</Text>
             </View>
           </View>
         </View>

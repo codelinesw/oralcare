@@ -32,10 +32,10 @@ export default class MentaOriginal extends React.Component {
                 <Image source={require('../../../images/Productos/CuidadoFamiliar/MentaOriginal/Imagen.png')} style={{left:45,marginTop:-70,width:1550,height:620,transform: [{ scale: 0.4 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{color:'red',fontSize:22,left:80,fontWeight:'bold',marginTop:150,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-            <Text style={{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}}>Ayuda a combatir las caries, incluso entre los dientes.</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,width:385,marginBottom:5}}>Fortalece y limpia lo dientes</Text>
-            <Text style={{marginTop:3,fontSize:15,left:80,marginBottom:5}}>Delicioso sabor refrescante</Text>
+            <Text style={[styles.ItalicText,{color:'red',fontSize:22,left:80,marginTop:150,marginBottom:2}]}>BENEFICIOS:</Text>
+            <Text style={[styles.globalText,{width:465,fontSize:18,left:80,marginTop:1,marginBottom:5}]}>Ayuda a combatir las caries, incluso entre los dientes.</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,width:385,marginBottom:5}]}>Fortalece y limpia lo dientes</Text>
+            <Text style={[styles.globalText,{marginTop:3,fontSize:15,left:80,marginBottom:5}]}>Delicioso sabor refrescante</Text>
             </View>
           </View>
         </View>

@@ -32,8 +32,8 @@ export default class ProAlivioInmediato extends React.Component {
                 <Image source={require('../../../images/Productos/Sensibilidad/ProAlivioInmediato/Imagen.png')} style={{left:45,marginTop:-60,width:1550,height:620,transform: [{ scale: 0.4 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-            <Text style={{fontSize:18,left:40,marginTop:135,marginBottom:15,width:535}}>Fórmula clínicamente comprobada y desarrollada con el poder de <Text style={{color:'red',fontStyle:'italic',fontWeight:'bold'}}>la tecnología de arginina</Text> para una acción inmediata y eficaz contra las molestias causadas por la sensibilidad en los dientes.</Text>
-            <Text style={{fontSize:18,left:40,marginTop:0,marginBottom:28,width:535}}>Con el uso regular, se crea una barrera de larga duración que actúa como un escudo protector contra la sensibilidad dental.</Text>
+            <Text style={[styles.globalText,{fontSize:18,left:40,marginTop:135,marginBottom:15,width:535}]}>Fórmula clínicamente comprobada y desarrollada con el poder de <Text style={{color:'red',fontStyle:'italic',fontWeight:'bold'}}>la tecnología de arginina</Text> para una acción inmediata y eficaz contra las molestias causadas por la sensibilidad en los dientes.</Text>
+            <Text style={[styles.globalText,{fontSize:18,left:40,marginTop:0,marginBottom:28,width:535}]}>Con el uso regular, se crea una barrera de larga duración que actúa como un escudo protector contra la sensibilidad dental.</Text>
             </View>
           </View>
         </View>

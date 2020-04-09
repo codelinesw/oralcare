@@ -31,19 +31,19 @@ export default class MultibeneficiosOne extends React.Component {
                 <Image source={require('../../../images/Productos/Multibeneficios/Imagen-01.png')} style={{marginTop:10,width:410,height:320,transform: [{ scale: 1 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,fontWeight:'bold',marginTop:60}}>AYUDA A:</Text>
-                <Text style={{textAlign:'left'}}>Prevenir las caries</Text>
-                <Text style={{textAlign:'left'}}>Proteger las encías</Text>
-                <Text style={{textAlign:'left'}}>Prevenir la formación de sarro</Text>
-                <Text style={{textAlign:'left'}}>Prevenir la formación de placa</Text>
-                <Text style={{textAlign:'left'}}>Combatir las bacterias</Text>
-                <Text style={{textAlign:'left'}}>Combatir el mal aliento</Text>
-                <Text style={{textAlign:'left'}}>Remover las manchas de los dientes</Text>
-                <Text style={{textAlign:'left'}}>Fortalecer el esmalte dental</Text>
-                <Text style={{textAlign:'left'}}>Prevenir las caries en raíces expuestas</Text>
-                <Text style={{textAlign:'left'}}>Prevenir la pérdida mineral de los dientes</Text>
-                <Text style={{textAlign:'left'}}>Prevenir problemas de encías causados por bacterias</Text>
-                <Text style={{textAlign:'left'}}>Limpia aún entre dientes</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,marginTop:60}]}>AYUDA A:</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Prevenir las caries</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Proteger las encías</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Prevenir la formación de sarro</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Prevenir la formación de placa</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Combatir las bacterias</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Combatir el mal aliento</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Remover las manchas de los dientes</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Fortalecer el esmalte dental</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Prevenir las caries en raíces expuestas</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Prevenir la pérdida mineral de los dientes</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Prevenir problemas de encías causados por bacterias</Text>
+                <Text style={[styles.globalText,{textAlign:'left'}]}>Limpia aún entre dientes</Text>
             </View>
           </View>
         </View>

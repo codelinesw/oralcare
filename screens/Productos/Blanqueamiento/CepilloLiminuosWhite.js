@@ -32,11 +32,11 @@ export default class CepilloLiminuosWhite extends React.Component {
                 <Image source={require('../../../images/Productos/Blanqueamiento/CepilloLiminuosWhite/Imagen.png')} style={{right:45,top:-1125,width:740,height:2420,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,right:190,fontWeight:'bold',marginTop:70,marginBottom:8,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:465,fontSize:18,right:190,marginTop:2}}>Copas removedoras de manchas.</Text>
-                <Text style={{width:465,fontSize:18,right:190,marginTop:2}}>Cerdas pulidoras exclusivas.</Text>
-                <Text style={{width:465,fontSize:18,right:190,marginTop:2}}>Limpiador de lengua.</Text>
-                <Text style={{marginTop:70,fontSize:13,right:190,width:485}}>*Ayuda a remover manchas efectivamente, con cerdas pulidoras mas copa blanqueadora.</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:190,marginTop:70,marginBottom:8}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:190,marginTop:2}]}>Copas removedoras de manchas.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:190,marginTop:2}]}>Cerdas pulidoras exclusivas.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:190,marginTop:2}]}>Limpiador de lengua.</Text>
+                <Text style={[styles.globalText,{marginTop:70,fontSize:13,right:190,width:485}]}>*Ayuda a remover manchas efectivamente, con cerdas pulidoras mas copa blanqueadora.</Text>
             </View>
           </View>
         </View>

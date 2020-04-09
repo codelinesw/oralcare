@@ -31,11 +31,11 @@ export default class Cuidadodelosmaschicos extends React.Component {
                 <Image source={require('../../../images/Productos/Cuidadodelosmaschicos/Imagen.png')} style={{marginTop:-160,width:610,height:620,transform: [{ scale: 0.85 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:20,right:100,width:400,marginTop:20,}}>Combate las caries y protege el esmalte con los productos infantiles Colgate Minions TM !</Text>
-                <Text style={{color:'red',right:65,fontSize:22,fontWeight:'bold',marginTop:40,marginBottom:8,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{textAlign:'left',right:65,marginBottom:8}}>Cepillos con cerdas multi-nivel para limpiar dientes chicos y grandes.</Text>
-                <Text style={{textAlign:'left',right:65,marginBottom:8,width:450}}>Gel dental clínicamente probado para dar protección contra las caries. Fortalece y protege los dientes en desarrollo.</Text>
-                <Text style={{textAlign:'left',right:65,width:430}}>Enjuague bucal que limpia toda la boca, eliminando las partículas que pudieron haber quedado después del cepillado.</Text>
+                <Text style={[styles.globalText,{color:'red',fontSize:20,right:100,width:400,marginTop:20,}]}>Combate las caries y protege el esmalte con los productos infantiles Colgate Minions TM !</Text>
+                <Text style={[styles.ItalicText,{color:'red',right:65,fontSize:22,marginTop:40,marginBottom:8}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,marginBottom:8,fontSize:17}]}>Cepillos con cerdas multi-nivel para limpiar dientes chicos y grandes.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,marginBottom:8,width:450,fontSize:17}]}>Gel dental clínicamente probado para dar protección contra las caries. Fortalece y protege los dientes en desarrollo.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430,fontSize:17}]}>Enjuague bucal que limpia toda la boca, eliminando las partículas que pudieron haber quedado después del cepillado.</Text>
             </View>
           </View>
         </View>

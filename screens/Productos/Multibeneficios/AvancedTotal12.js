@@ -32,15 +32,15 @@ export default class AvancedTotal12 extends React.Component {
                 <Image source={require('../../../images/Productos/Multibeneficios/360-Avanced-Total-12/Imagen.png')} style={{left:45,top:-1125,width:680,height:2420,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{width:465,fontSize:22,right:120,marginTop:35}}>Limpieza saludable en toda tu boca limpiador de lengua y mejillas con diseño innovador, remueve bacterias en cuatro áreas:</Text>
-                <Text style={{textAlign:'left',marginTop:25,right:80,marginBottom:10}}>Dientes.</Text>
-                <Text style={{textAlign:'left',right:80,marginBottom:10 }}>Lengua.</Text>
-                <Text style={{textAlign:'left',right:80,marginBottom:10}}>Mejillas.</Text>
-                <Text style={{textAlign:'left',right:80,}}>Encias.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:20,right:120,marginTop:35}]}>Limpieza saludable en toda tu boca limpiador de lengua y mejillas con diseño innovador, remueve bacterias en cuatro áreas:</Text>
+                <Text style={[styles.globalText,{fontSize:17,textAlign:'left',marginTop:25,right:80,marginBottom:10}]}>Dientes.</Text>
+                <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:80,marginBottom:10 }]}>Lengua.</Text>
+                <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:80,marginBottom:10}]}>Mejillas.</Text>
+                <Text style={[styles.globalText,{fontSize:17,textAlign:'left',right:80,}]}>Encias.</Text>
             </View>
           </View>
         </View>
-        <Submenu currentScreen="Multibeneficios" />
+        <Submenu currentScreen="SaludNatural" />
         <ButtonSlide screenPrev="AlientoSaludable" screenNext="UltraSoft" navigation={this.props.navigation}/>
         <Image source={require('../../../images/Productos/Multibeneficios/Fondo.png')} style={{position:'absolute',top:0,left:0,width:WIDTH,height:HEIGHT,zIndex:-2}} />
       </View>

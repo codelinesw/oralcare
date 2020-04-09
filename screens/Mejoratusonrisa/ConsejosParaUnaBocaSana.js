@@ -17,21 +17,8 @@ export default class ConsejosParaUnaBocaSana extends React.Component {
 
 
     };
-    this.CurrentSlide = 0;
-    this.IntervalTime = 4000;
-    this.scrollx = new Animated.Value(0);
-    this.start = "";
 
-  }
 
-  componentDidMount(){
-    // this.start = setInterval(() => {
-    //   this._goToNextPage();
-    // },6000);
-  }
-
-  componentWillUnmount(){
-    clearInterval(this.start);
   }
 
   render(){
@@ -49,27 +36,27 @@ export default class ConsejosParaUnaBocaSana extends React.Component {
             <View style={[styles.panel_left,{width:(WIDTH-50),height:HEIGHT-400,flexDirection:'row',alignItems:'center',justifyContent:'center'}]}>
                 <View style={{position:'relative',flexDirection:'column',width:((WIDTH-50)/2),height:HEIGHT-400,alignItems:'center',justifyContent:'center'}}>
                     <Image source={require('../../images/screen-four/Numeros-1-2.png')} style={{position:'absolute',top:-76,left:-10,width:150,height:520,transform: [{ scale: 0.3 }]}} />
-                    <Text style={{fontSize:22,width:390,marginBottom:22}}>Usar el cepillo dental adecuado para la necesidad de tu boca. Cepillate 3 veces al día por al menos 2 minutos, especialmente al levantarse por la mañana y antes de acostarse.</Text>
-                    <Text style={{fontSize:22,width:390,marginBottom:22}}>Elige la crema dental adecuada para mantener tu boca sana.</Text>
+                    <Text style={[styles.globalText,{position:'relative',top:-40,fontSize:22,width:390,marginBottom:22}]}>Usar el cepillo dental adecuado para la necesidad de tu boca. Cepillate 3 veces al día por al menos 2 minutos, especialmente al levantarse por la mañana y antes de acostarse.</Text>
+                    <Text style={[styles.globalText,{position:'relative',top:-40,fontSize:22,width:390,marginBottom:22}]}>Elige la crema dental adecuada para mantener tu boca sana.</Text>
                 </View>
                 <View style={{position:'relative',flexDirection:'column',width:((WIDTH-50)/2),height:HEIGHT-400,alignItems:'center',justifyContent:'center'}}>
                   <Image source={require('../../images/screen-four/Numeros-3-4.png')} style={{position:'absolute',top:-64,left:-10,width:150,height:520,transform: [{ scale: 0.3 }]}} />
-                  <Text style={{fontSize:22,width:390,marginBottom:22}}>Finaliza tu higiene bucal con un enjuague bucal que potencie la acción de tu crema dental.</Text>
-                  <Text style={{position:'relative',top:35,fontSize:22,width:390,marginBottom:22}}>Usa hilo dental una vez al día.</Text>
+                  <Text style={[styles.globalText,{position:'relative',top:-30,fontSize:19,width:390,marginBottom:22}]}>Finaliza tu higiene bucal con un enjuague bucal que potencie la acción de tu crema dental.</Text>
+                  <Text style={[styles.globalText,{position:'relative',top:-5,fontSize:19,width:390,marginBottom:22}]}>Usa hilo dental una vez al día.</Text>
                 </View>
             </View>
-            <View style={[styles.panel_right,{top:-40,width:(WIDTH-50),height:HEIGHT-200,flexDirection:'row',justifyContent:'center',alignItems:'center'}]}>
+            <View style={[styles.panel_right,{top:-70,width:(WIDTH-50),height:HEIGHT-200,flexDirection:'row',justifyContent:'center',alignItems:'center'}]}>
               <View style={{position:'relative',top:-200,flexDirection:'row',justifyContent:'center',alignItems:'center',width:((WIDTH-50)/3),height:180}}>
                 <Image source={require('../../images/screen-four/Imagen-01.png')} style={{left:-4,width:180,height:180,transform: [{ scale: 0.7 }]}} />
-                <Text style={{fontSize:17,width:256,marginBottom:22,right:20}}>Saque de 45 a 60 cm de hilo dental del dispesador.</Text>
+                <Text style={[styles.globalText,{fontSize:17,width:256,marginBottom:22,right:20}]}>Saque de 45 a 60 cm de hilo dental del dispesador.</Text>
               </View>
               <View style={{position:'relative',top:-200,flexDirection:'row',justifyContent:'center',alignItems:'center',width:((WIDTH-50)/3),height:180}}>
                 <Image source={require('../../images/screen-four/Imagen-02.png')} style={{left:-4,width:180,height:180,transform: [{ scale: 0.7 }]}} />
-                <Text style={{fontSize:17,width:256,marginBottom:22,right:20}}>Enrolle los extremos del hilo en sus Dedos índice y medio.</Text>
+                <Text style={[styles.globalText,{fontSize:17,width:256,marginBottom:22,right:20}]}>Enrolle los extremos del hilo en sus Dedos índice y medio.</Text>
               </View>
               <View style={{position:'relative',top:-200,flexDirection:'row',justifyContent:'center',alignItems:'center',width:((WIDTH-50)/3),height:180}}>
                 <Image source={require('../../images/screen-four/Imagen-03.png')} style={{left:-4,width:180,height:180,transform: [{ scale: 0.7 }]}} />
-                <Text style={{fontSize:17,width:256,marginBottom:22,right:20}}>Sujete el hilo con ﬁrmeza alrededor de cada diente formando una C; mueva el hilo hacia adelante y hacia atrás jalando y empujando, de arriba hacia abajo contra el lado de cada diente.</Text>
+                <Text style={[styles.globalText,{fontSize:17,width:256,marginBottom:22,right:20}]}>Sujete el hilo con ﬁrmeza alrededor de cada diente formando una C; mueva el hilo hacia adelante y hacia atrás jalando y empujando, de arriba hacia abajo contra el lado de cada diente.</Text>
               </View>
             </View>
           </View>

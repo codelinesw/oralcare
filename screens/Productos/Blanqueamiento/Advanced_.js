@@ -32,11 +32,11 @@ export default class Advanced_ extends React.Component {
 
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,right:75,fontWeight:'bold',marginTop:70,marginBottom:8,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:465,fontSize:18,right:75,marginTop:2}}>Copas removedoras de manchas.</Text>
-                <Text style={{width:465,fontSize:18,right:75,marginTop:2}}>Cerdas pulidoras exclusivas.</Text>
-                <Text style={{width:465,fontSize:18,right:75,marginTop:2}}>Limpiador de lengua y mejillas único y punta limpiadora elevada.</Text>
-                <Text style={{width:465,fontSize:18,right:75,marginTop:2}}>Diseño avanzado y limpieza efectiva y cómoda.</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:75,marginTop:70,marginBottom:8}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:75,marginTop:2}]}>Copas removedoras de manchas.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:75,marginTop:2}]}>Cerdas pulidoras exclusivas.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:75,marginTop:2}]}>Limpiador de lengua y mejillas único y punta limpiadora elevada.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:18,right:75,marginTop:2}]}>Diseño avanzado y limpieza efectiva y cómoda.</Text>
             </View>
           </View>
         </View>

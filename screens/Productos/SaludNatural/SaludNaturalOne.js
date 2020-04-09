@@ -31,9 +31,9 @@ export default class SaludNaturalOne extends React.Component {
                 <Image source={require('../../../images/Productos/SaludNatural/Imagen.png')} style={{marginTop:-30,width:410,height:450,transform: [{ scale: 1 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{fontSize:19,right:30,width:500,marginTop:70,marginBottom:8}}>Te sorprenderá con las propiedades de sus ingredientes de origen natural. Te da una explosión de sabor para el cuidado de tu sonrisa en tres presentaciones: “Cítricos y Eucalipto” “Coco y Jengibre” y “Carbón Activado y Menta”.</Text>
-                <Text style={{color:'red',fontSize:22,right:30,fontWeight:'bold',marginTop:40}}>AYUDA A:</Text>
-                <Text style={{textAlign:'left',right:30,width:360}}>Remover las bacterias que pueden causar mal aliento, caries o problemas de encías con el cepillado regular.</Text>
+                <Text style={[styles.globalText,{fontSize:19,right:30,width:500,marginTop:70,marginBottom:8}]}>Te sorprenderá con las propiedades de sus ingredientes de origen natural. Te da una explosión de sabor para el cuidado de tu sonrisa en tres presentaciones: “Cítricos y Eucalipto” “Coco y Jengibre” y “Carbón Activado y Menta”.</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:30,marginTop:40}]}>AYUDA A:</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:30,width:360}]}>Remover las bacterias que pueden causar mal aliento, caries o problemas de encías con el cepillado regular.</Text>
             </View>
           </View>
         </View>

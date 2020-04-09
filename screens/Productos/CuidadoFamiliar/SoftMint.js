@@ -32,10 +32,10 @@ export default class SoftMint extends React.Component {
                 <Image source={require('../../../images/Productos/CuidadoFamiliar/SoftMint/Imagen.png')} style={{left:45,top:-1155,width:1240,height:2560,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{marginTop:45,fontSize:20,right:75,width:385}}>Colgate Plax Soft Mint mata los gérmenes que causan la gingivitis, la placa bacteriana y el mal aliento hasta por 12 horas.</Text>
-                <Text style={{color:'red',fontSize:22,right:70,fontWeight:'bold',marginTop:40,marginBottom:0,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:525,fontSize:22,right:70,marginTop:5}}>Ayuda a reducir hasta el 99% de los gérmenes</Text>
-                <Text style={{marginTop:5,fontSize:18,right:75,width:525}}>Aliento fresco</Text>
+                <Text style={[styles.globalText,{marginTop:45,fontSize:20,right:75,width:385}]}>Colgate Plax Soft Mint mata los gérmenes que causan la gingivitis, la placa bacteriana y el mal aliento hasta por 12 horas.</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:70,marginTop:40,marginBottom:0}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:525,fontSize:22,right:70,marginTop:5}]}>Ayuda a reducir hasta el 99% de los gérmenes</Text>
+                <Text style={[styles.globalText,{marginTop:5,fontSize:18,right:75,width:525}]}>Aliento fresco</Text>
             </View>
           </View>
         </View>

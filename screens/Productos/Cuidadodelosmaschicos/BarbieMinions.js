@@ -32,12 +32,12 @@ export default class BarbieMinions extends React.Component {
                 <Image source={require('../../../images/Productos/Cuidadodelosmaschicos/BarbieMinions/Imagen.png')} style={{marginTop:-160,width:610,height:620,transform: [{ scale: 0.85 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',right:65,fontSize:22,fontWeight:'bold',marginTop:80,marginBottom:8,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{textAlign:'left',right:65,marginBottom:8}}>Protección contra las caries, clínicamente probado.</Text>
-                <Text style={{textAlign:'left',right:65,marginBottom:8,width:450}}>Protección del esmalte que fortalece y protege los dientes.</Text>
-                <Text style={{textAlign:'left',right:65,width:430}}>Gel con delicioso sabor a tutti-frutti.</Text>
-                <Text style={{textAlign:'left',right:65,width:430}}>Con flúor para niños.</Text>
-                <Text style={{textAlign:'left',right:65,width:430}}>Viene en un cómodo tubo que es fácil de usar</Text>
+                <Text style={[styles.ItalicText,{color:'red',right:65,fontSize:22,marginTop:80,marginBottom:8}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,marginBottom:8}]}>Protección contra las caries, clínicamente probado.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,marginBottom:8,width:450}]}>Protección del esmalte que fortalece y protege los dientes.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430}]}>Gel con delicioso sabor a tutti-frutti.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430}]}>Con flúor para niños.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430}]}>Viene en un cómodo tubo que es fácil de usar</Text>
             </View>
           </View>
         </View>

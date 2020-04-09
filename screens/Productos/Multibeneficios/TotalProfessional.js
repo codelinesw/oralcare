@@ -32,8 +32,8 @@ export default class TotalProfessional extends React.Component {
                 <Image source={require('../../../images/Productos/Multibeneficios/TotalProfessional/Imagen.png')} style={{left:45,marginTop:0,width:910,height:520,transform: [{ scale: 0.7 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{width:465,fontSize:22,left:70,marginTop:115}}>Adicionada con tecnología que cambia de color ayudándote a reducir la formación de placa y bacterias para una salud bucal completa* que hasta un odontólogo podrá ver.</Text>
-                <Text style={{marginTop:70,fontSize:13,left:5,width:485}}>* Reduce bacterias en dientes, lengua, mejillas y encías; ayuda a reducir la placa que causa problemas en las encías, fortalece el esmalte y ayuda a aliviar la sensibilidad con el uso continuo.</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:20,left:70,marginTop:115}]}>Adicionada con tecnología que cambia de color ayudándote a reducir la formación de placa y bacterias para una salud bucal completa* que hasta un odontólogo podrá ver.</Text>
+                <Text style={[styles.globalText,{marginTop:70,fontSize:15,left:5,width:485}]}>* Reduce bacterias en dientes, lengua, mejillas y encías; ayuda a reducir la placa que causa problemas en las encías, fortalece el esmalte y ayuda a aliviar la sensibilidad con el uso continuo.</Text>
             </View>
           </View>
         </View>

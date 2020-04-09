@@ -32,11 +32,11 @@ export default class Bamboo extends React.Component {
                 <Image source={require('../../../images/Productos/SaludNatural/Bamboo/Imagen.png')} style={{right:45,top:-1325,width:700,height:2920,transform: [{ scale: 0.2 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,right:240,fontWeight:'bold',marginTop:140,marginBottom:2,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{width:465,fontSize:18,right:240,marginTop:1}}>Cerdas de puntas finas infundidas en carbono.</Text>
-                <Text style={{marginTop:3,fontSize:15,right:240,width:385}}>Sin bisfenol a</Text>
-                <Text style={{marginTop:3,fontSize:15,right:240}}>Mango hecho con bambú natural</Text>
-                <Text style={{marginTop:3,fontSize:15,right:240}}>Empaque reciclable</Text>
+                <Text style={[styles.ItalicText,{color:'red',fontSize:22,right:240,marginTop:140,marginBottom:2}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{width:465,fontSize:17,right:240,marginTop:1}]}>Cerdas de puntas finas infundidas en carbono.</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:16,right:240,width:385}]}>Sin bisfenol a</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:16,right:240}]}>Mango hecho con bambú natural</Text>
+                <Text style={[styles.globalText,{marginTop:3,fontSize:16,right:240}]}>Empaque reciclable</Text>
             </View>
           </View>
         </View>

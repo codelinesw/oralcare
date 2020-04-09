@@ -31,9 +31,9 @@ export default class Blanqueamiento extends React.Component {
                 <Image source={require('../../../images/Productos/Blanqueamiento/Imagen-01.png')} style={{marginTop:10,width:410,height:320,transform: [{ scale: 1 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',fontSize:22,fontWeight:'bold',marginTop:90,marginBottom:5,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{textAlign:'left',marginBottom:5}}>Sus microcristales aceleradores blanqueamiento contienen ingredientes similares a los usados por los dentistas.</Text>
-                <Text style={{textAlign:'left'}}>Combina abrillantadores ópticos para blanquear los dientes Instantáneamente.</Text>
+                <Text style={[styles.globalText,{color:'red',fontSize:22,fontWeight:'bold',marginTop:90,marginBottom:5,fontStyle:'italic'}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{textAlign:'left',marginBottom:5,fontSize:19,width:550}]}>Sus microcristales aceleradores blanqueamiento contienen ingredientes similares a los usados por los dentistas.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',fontSize:19}]}>Combina abrillantadores ópticos para blanquear los dientes Instantáneamente.</Text>
             </View>
           </View>
         </View>

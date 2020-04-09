@@ -32,12 +32,12 @@ export default class LigadelaJusticia extends React.Component {
                 <Image source={require('../../../images/Productos/Cuidadodelosmaschicos/LigadelaJusticia/Imagen.png')} style={{marginTop:-160,width:610,height:620,transform: [{ scale: 0.85 }],marginBottom:25}} />
             </View>
             <View style={[styles.panel_second,{width:(WIDTH/2),height:HEIGHT-310}]}>
-                <Text style={{color:'red',right:65,fontSize:22,fontWeight:'bold',marginTop:80,marginBottom:8,fontStyle:'italic'}}>BENEFICIOS:</Text>
-                <Text style={{textAlign:'left',right:65,marginBottom:8}}>Protección contra las caries, clínicamente probado.</Text>
-                <Text style={{textAlign:'left',right:65,marginBottom:8,width:450}}>Protección del esmalte que fortalece y protege los dientes.</Text>
-                <Text style={{textAlign:'left',right:65,width:430,marginBottom:8,}}>Con los personajes de Batman y la Mujer Maravilla que alientan a los niños a cepillarse.</Text>
-                <Text style={{textAlign:'left',right:65,width:430,marginBottom:8,}}>Con flúor para niños.</Text>
-                <Text style={{textAlign:'left',right:65,width:430}}>Viene en un cómodo tubo que es fácil de usar</Text>
+                <Text style={[styles.ItalicText,{color:'red',right:65,fontSize:22,marginTop:80,marginBottom:8}]}>BENEFICIOS:</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,marginBottom:8, fontSize:16}]}>Protección contra las caries, clínicamente probado.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,marginBottom:8,width:450, fontSize:16}]}>Protección del esmalte que fortalece y protege los dientes.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430,marginBottom:8, fontSize:16}]}>Con los personajes de Batman y la Mujer Maravilla que alientan a los niños a cepillarse.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430,marginBottom:8, fontSize:16}]}>Con flúor para niños.</Text>
+                <Text style={[styles.globalText,{textAlign:'left',right:65,width:430, fontSize:16}]}>Viene en un cómodo tubo que es fácil de usar</Text>
             </View>
           </View>
         </View>
